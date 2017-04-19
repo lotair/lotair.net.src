@@ -71,3 +71,10 @@ deploy:
   type: git
   repo: https://github.com/lotair/lotair.net.git
   branch: master
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+duoshuo_shortname: lotair
